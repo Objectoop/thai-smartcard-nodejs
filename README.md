@@ -25,6 +25,17 @@ Nodejs application read personal and nhso data from thai id card, it run in the 
   pm2 save
   ```
 
+
+### Warning in case of Installation Hangs after "Successfully installed Python 2.7" while installing production windows-build-tools
+
+Visit https://stackoverflow.com/questions/66782103/installation-hangs-after-successfully-installed-python-2-7-while-installing-pr
+
+Access %temp% Folder
+Create 'dd_client_.log.txt' and enter 'Closing installer. Return code: 3010.'
+Now re run 
+- Start PowerShell as Administrator and run: `npm install --global --production windows-build-tools` again
+
+
 ### Ubuntu & Pi
 
 - Install [Python 2.7.x](https://www.python.org/downloads/)
@@ -42,6 +53,7 @@ Nodejs application read personal and nhso data from thai id card, it run in the 
   pm2 startup
   pm2 save
   ```
+
 
 ### Mac
 
